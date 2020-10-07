@@ -2,7 +2,8 @@
 <!-- Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i dischi in pagina: al caricamento della pagina ci saranno tutti i dischi (vedi screenshot). In allegato trovate anche il database fake da utilizzare
 
  -->
-<?php include "dp.php"; ?>
+<?php include "src/partials/dp.php" ?>
+
 <html lang="en" dir="ltr">
   <head>
    <meta charset="utf-8">
@@ -26,18 +27,24 @@
    </header>
    <main>
     <div class="main_wrapper">
-     <div class="cover_card">
-      <h3>titolo</h3>
-      <h4>autore</h4>
-      <p>anno</p>
+    <?php if(!empty($album)): ?>
+    <?php foreach($albums as $album): ?>
+     <div class="album_card">
+      <img src="<?php echo $album["poster"] ?>" alt="#">
+      <h3><?php echo $album["title"] ?></h3>
+      <h4><?php echo $album["author"] ?></h4>
+      <p><?php echo $album["year"] ?></p>
+      <?php endforeach ?>
+      <?php endif ?>
      </div>
     </div>
    </main>
   <!-- //handlebars template for milestone 2
   <script id="cd-template" type="text/x-handlebars-template">
-   <div>
-    <h1>{{title}}</h1>
-    <div>{{Author}}</div>
+   <div class="cover_card">
+    <h3>{{Title}}</h3>
+    <h4>{{Author}}</h4>
+    <p>{{Year}}</p>
    </div>
   </script> -->
   <!-- // javascript for milestone 2

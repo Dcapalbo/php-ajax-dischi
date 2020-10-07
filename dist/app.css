@@ -47,7 +47,7 @@ h4 {
   margin: 5px;
 }
 
-.cover_card {
+.album_card {
   display: flex;
   flex-direction: column;
   justify-content: center;
