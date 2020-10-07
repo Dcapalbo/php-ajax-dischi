@@ -20,44 +20,19 @@
    <header>
     <div class="header_top">
      <div class="header_wrapper">
-      <img src="img/logo_spotify.jpg" alt="spotify">
-     </div>
-    </div>
-    <div class="header_main">
-     <div class="header_wrapper">
-      <div class="">
-        <h3></h3>
-        <h4></h4>
-        <p></p>
-      </div>
-      <div class="">
-        <h3></h3>
-        <h4></h4>
-        <p></p>
-      </div>
-      <div class="">
-        <h3></h3>
-        <h4></h4>
-        <p></p>
-      </div>
-      <div class="">
-        <h3></h3>
-        <h4></h4>
-        <p></p>
-      </div>
-      <div class="">
-        <h3></h3>
-        <h4></h4>
-        <p></p>
-      </div>
-      <div class="">
-        <h3></h3>
-        <h4></h4>
-        <p></p>
-      </div>
+      <i class="fab fa-spotify"></i>>
      </div>
     </div>
    </header>
+   <main>
+    <div class="main_wrapper">
+     <div class="cover_card">
+      <h3>titolo</h3>
+      <h4>autore</h4>
+      <p>anno</p>
+     </div>
+    </div>
+   </main>
   <!-- //handlebars template for milestone 2
   <script id="cd-template" type="text/x-handlebars-template">
    <div>

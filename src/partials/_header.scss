@@ -1,17 +1,39 @@
-.heder_top {
+.header_top {
   width: 100%;
   height: 100px;
-  background-color: #2e3a46;
+  background-color: #000;
 }
 .header_wrapper {
   width: 60%;
   height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main_wrapper {
+  width: 60%;
+  height: 100%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  h3, h4, p {
+    padding: 5px;
+    margin: 5px;
+  }
 }
-.header_main {
-  width: 100%;
-  height: calc(100% - 100px);
-  background-color: #1e2d3b;
+.cover_card {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: calc(100% / 3);
+ height: 400px;
+}
+.fa-spotify {
+  font-size: 40px;
+  color: lightgreen;
+  background-color: #000;
 }
