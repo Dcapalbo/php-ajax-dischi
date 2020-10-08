@@ -1,5 +1,5 @@
 <!-- include the php code -->
-<?php include "albums.php" ?>
+<?php include "server.php" ?>
 <?php include "head.php" ?>
   <body>
    <header>
@@ -37,15 +37,6 @@
    <!-- end album cover wrapper -->
    </main>
    <!-- end main -->
-  <!-- //handlebars template for milestone 2
-  <script id="cd-template" type="text/x-handlebars-template">
-   <div class="cover_card">
-    <h3>{{Title}}</h3>
-    <h4>{{Author}}</h4>
-    <p>{{Year}}</p>
-   </div>
-  </script> -->
-  <!-- // javascript for milestone 2
-  <script src="js/main.js" charset="utf-8"></script> -->
+  <!-- // javascript for milestone 2 -->
   </body>
 </html>

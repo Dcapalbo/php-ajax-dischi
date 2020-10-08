@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "php-ajax-dischi",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "jquery": "^3.5.1"
+  },
   "devDependencies": {
     "cross-env": "^7.0.2",
     "laravel-mix": "^5.0.5",
