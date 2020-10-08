@@ -63,6 +63,7 @@ $(document).ready(function() {
    //make a variable to save the value
    var authorValue = $(this).val();
    resetData();
+   //make an other ajax call for the authors
    $.ajax (
       {
        "url": "http://localhost:8888/php-ajax-dischi/server.php",
