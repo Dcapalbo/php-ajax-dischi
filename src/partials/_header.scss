@@ -7,11 +7,23 @@
   height: 100%;
   margin: auto;
   width: 50%;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  select {
+    position: absolute;
+    right: 0;
+    width: 140px;
+    height: 30px;
+    color: #000;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: lightgreen;
+  }
 }
-.albums_list_wrapper {
+
+.albums_list {
   height: 100%;
   width: 70%;
   margin: auto;
@@ -27,7 +39,7 @@
     margin-bottom: 30px;
   }
   h3, p {
-    color: #fff;
+    color: $fontColor;
     font-size: 20px;
     padding: 5px;
     margin: 5px;
